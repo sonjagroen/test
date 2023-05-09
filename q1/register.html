@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Bookstore</title>
+	<link rel="stylesheet" href="layouts.css">
+	<script type="text/javascript" src="scriptRegister.js"></script>
+</head>
+
+<body>	   		
+<div class="section1">
+<h3>Register Member</h3>	
+<form method="post" action="register.php" onsubmit="return validate(this)">
+<table>
+<tr><td>Member id:</td><td><input type="text" name="member_id" onfocus="clearElement(this)"></td></tr>
+<tr><td>Fist name:</td><td><input type="text" name="first_name" onfocus="clearElement(this)"></td></tr>
+<tr><td>Last name:</td><td><input type="text" name="last_name" onfocus="clearElement(this)"></td></tr>
+<tr><td>Phone number:</td><td><input type="text" name="phone" onfocus="clearElement(this)"></td></tr>
+<tr><td>Email:</td><td><input type="text" name="email" onfocus="clearElement(this)"></td></tr>
+<tr><td>Password:</td><td><input type="text" name="password" onfocus="clearElement(this)"></td></tr>
+<tr><td>Fitness goals:</td><td><input type="text" name="fitness_goals" onfocus="clearElement(this)"></td></tr>
+<tr><td>Workout schedule:</td><td><input type="text" name="workout_schedule" onfocus="clearElement(this)"></td></tr>
+<tr><td>Fitness level:</td><td><input type="password" name="fitness_level" onfocus="clearElement(this)"></td></tr>
+			 <input type="hidden" name="registered" value="yes">
+			 <tr><td></td><td><input type="submit"></td></tr>
+</table>
+</form>			
+</div>			
+		
+	</body>
+</html>
